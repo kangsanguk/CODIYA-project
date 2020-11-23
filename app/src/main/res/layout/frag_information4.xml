@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/corona" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="439dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/corona1"
+            android:layout_width="62dp"
+            android:layout_height="393dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_round4"
+            android:drawableBottom="@drawable/level1"
+            android:paddingBottom="16dp"
+            android:text="1단계          click"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/corona2"
+            android:layout_width="62dp"
+            android:layout_height="393dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_round4"
+            android:drawableBottom="@drawable/level2"
+            android:paddingBottom="16dp"
+            android:text="1.5단계     click"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/corona3"
+            android:layout_width="62dp"
+            android:layout_height="393dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_round4"
+            android:drawableBottom="@drawable/level3"
+            android:paddingBottom="16dp"
+            android:text="2단계          click"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/corona4"
+            android:layout_width="62dp"
+            android:layout_height="393dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_round4"
+            android:drawableBottom="@drawable/level4"
+            android:paddingBottom="16dp"
+            android:text="2.5단계     click"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/corona5"
+            android:layout_width="62dp"
+            android:layout_height="393dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_round4"
+            android:drawableBottom="@drawable/level5"
+            android:paddingBottom="16dp"
+            android:text="3단계          click"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

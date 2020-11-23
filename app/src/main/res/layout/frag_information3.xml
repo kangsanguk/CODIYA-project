@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="348dp"
+        android:layout_height="769dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="100dp"
+
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="264dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d1" />
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="264dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d2" />
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="264dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d3" />
+
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="264dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d4" />
+
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="264dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d5" />
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="264dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d6" />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/d7" />
+
+            <ImageButton
+                android:id="@+id/frag_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="210dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fragbutton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="124dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="70dp"
+                android:text="이미지 클릭시 영상이 재생됩니다."
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
