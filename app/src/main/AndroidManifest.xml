@@ -45,7 +45,7 @@
         </service>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBjonJpPoR9Y3BfmkTW8rSAwykG7s1oeGM" />
+            android:value="" />
         <activity android:name=".LoadingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
